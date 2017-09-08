@@ -1,6 +1,5 @@
 # 最基础的遍历无序列表的查找算法
 # 时间复杂度O(n)
- 
 def sequential_search(li,key):
     length = len(li)
     for i in range(length):
