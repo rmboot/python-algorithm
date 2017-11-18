@@ -69,11 +69,11 @@ c_node.insert_right('g')
   d   e   f   g
 """
 
-a_node.pre_order()
+a_node.pre_order() #a b d e c f g
 print()
-a_node.in_order()
+a_node.in_order() #d b e a f c g
 print()
-a_node.post_order()
+a_node.post_order() #d e b f g c a
 print()
-a_node.bfs()
+a_node.bfs() #a b c d e f g
 print()
