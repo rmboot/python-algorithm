@@ -80,5 +80,9 @@ bst.insert_node(16)
 bst.insert_node(28)
 bst.insert_node(6)
 bst.insert_node(32)
-bst.in_order()  #2 6 12 16 23 28 32 45
+bst.in_order() #2 6 12 16 23 28 32 45
+print()
+print(bst.find_minimum_value()) #2
+bst.clear_node()
+bst.in_order() #None
 print()
